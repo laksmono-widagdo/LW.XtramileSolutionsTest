@@ -20,7 +20,8 @@
     "LW.XtramileSolutionsTest": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weekday",
+      //"launchUrl": "weekday/2014-8-13/2014-8-21",
+      "launchUrl": "businessday/2014-8-13/2014-8-21",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

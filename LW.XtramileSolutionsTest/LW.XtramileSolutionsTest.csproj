@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LW.XtramileSolutionsTest.Services\LW.XtramileSolutionsTest.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="..\.dockerignore">
       <DependentUpon>dockerfile</DependentUpon>
     </None>

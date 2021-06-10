@@ -2,7 +2,7 @@
 
 namespace LW.XtramileSolutionsTest.Services
 {
-    public class BusinessdayCalculator : WeekdayCalculator
+    public class BusinessdayCalculator : WeekdayCalculator, IBusinessdayCalculator
     {
         public DateTime[] Holidays { get; set; }
 

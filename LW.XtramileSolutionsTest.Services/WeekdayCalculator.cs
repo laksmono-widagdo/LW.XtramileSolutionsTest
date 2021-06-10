@@ -2,7 +2,7 @@
 
 namespace LW.XtramileSolutionsTest.Services
 {
-    public class WeekdayCalculator
+    public class WeekdayCalculator : IWeekdayCalculator
     {
         public DateTime FromDate { get; set; }
         public DateTime ToDate { get; set; }
